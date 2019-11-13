@@ -16,7 +16,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 //For clearing extra doubts check TestController "/getEmp2" requestmapping :)
 
 
-@XmlRootElement(name="Employees") 
+@XmlRootElement(name="employees") 
 @XmlAccessorType(XmlAccessType.FIELD)
 
 public class EmployeeWrapper {
